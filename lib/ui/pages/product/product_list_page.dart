@@ -5,6 +5,10 @@ class ProductListPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Container(
+        child: Center(child: Text("productList")),
+      ),
+    );
   }
 }
